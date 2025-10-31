@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Producto producto = new Producto("", "", 0, 0); //  Declarado sin inicializar
+        Producto producto = new Producto("", "", 0, 0); //   Inicialización temporal
         boolean productoCreado = false;
 
         System.out.println("=== Registro de Producto Alimenticio ===");
@@ -77,3 +77,4 @@ public class Main {
         scanner.close();
     }
 }
+
